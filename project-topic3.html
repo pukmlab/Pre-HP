@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="desctiption" content="このサイトは、森山研究室（森山賀文）の公式ホームページです。森山研究室の紹介、教員（森山賀文）紹介、メンバー紹介、研究実績、連絡先などを掲載しています。興味のある学生や共同研究などをお考えの方は、お気軽にご連絡いただければ幸いです。">
+  <title>[熊本県立大学]森山研究室 -Mlab-｜情報学</title>
+  <link href="https://fonts.googleapis.com/css?family=Sawarabi+Mincho" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style-projecttopic3.css">
+</head>
+<body class="home">
+  <header>
+    <li id="Mlab_log"><a href="index.html"><img src="images/mlab_logo2.jpg" alt="森山ゼミのロゴ"></a></li>
+    <nav>
+      <ul>
+        <li><a href="aboutus.html">ABOUT US</a></li>
+        <li><a href="research.html">RESERCH</a></li>
+        <li><a href="project.html">PROJECT</a></li>
+        <li><a href="members.html">MEMBERS</a></li>
+        <li><a href="joinus.html">JOIN US</a></li>
+        <li><a href="news.html">NEWS</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>自動採点プログラム</h2>
+    <img id="topimg" src="images/demoimg25.jpg" alt="自動採点プログラムの画像">
+    <p>後期から始まった情報ゼミ情報合同演習の最終課題として、各ゼミでそれぞれ2チームに分かれて、何か成果物を一つ作ることになりました。私たちA班は教育に今回焦点を当てて、何か課題を解決できないかと考えました。そして、先生たちが普段行っているテスト採点を自動化できないかと考え、今回制作を試みました。
+      <br>
+      今回のプログラムの大まかな流れとして、まず回答用紙を読み込み、そこから回答欄を切り取ります。次に、手書きの数字をニューラルネットワークで作ったモデルで認識し、認識した文字を採点、それと同時にExcelファイルを作成します。
+      <br>
+      今回使用したプログラミング言語はPythonです。開発環境はGoogleCloratoryです。また、画像を切り取るためにOpenCV、ニューラルネットワークでモデルを作るために使う教師データはMNISTを使用しました。また、今回は回答欄が数字のみ記述されているテストを前提にしています。
+      <br>
+      文字認識モデルの制度はテストデータで約97.5%、手書き数字の場合、平均7割の精度を観測できました。また、この自動採点プログラムがテスト1枚を採点するのにかかる時間は約0.2秒で、私たちが行うよりはるかに速いことが分かります。また、Excelファイルを同時に作成しているため、データ分析が可能になり、今後の教育方針を決める根拠としてテスト結果を活用できます。
+      <br>
+      今回の制作を通して、今後は7割しか届かなかった文字認識の精度を強化していき、データ分析・結果の活用をしていきたいと考えています。
+    </p>
+    <p>メンバー：海老原誠一郎、小野裕史、栗原涼、西唯斗、野田悠河</p>
+    <div class="images1">
+      <img src="images/demoimg32.jpg">
+      <img src="images/demoimg33.jpg">
+      <img src="images/demoimg34.jpg">
+      <img src="images/demoimg35.jpg">
+    </div>
+  </main>
+ 
+  <footer>
+    <ul>
+      <li><a href="sitemap.html">SiteMap</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="sitepolicy.html">Site Policy</a></li>
+    </ul>
+    <p><small>&copy;2022 Prefectural University of Kumamoto, Moriyama Lab</small></p>
+    <p id="designed">Designed by Ebihara Seiichiro, Ono Yushi, Sukita Kanae, Nishi Yuito</p>
+  </footer>
+</body>
+</html>

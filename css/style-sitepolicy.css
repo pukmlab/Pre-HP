@@ -1,0 +1,121 @@
+@charset "utf-8";
+body{
+  line-height: 1.7;
+  font-size: 16px;
+  font-family: "Sawarabi Mincho";
+  color: #000;
+}
+
+a,
+a:link{
+  color: #000;
+  text-decoration: none;
+}
+
+/* header*/
+#Mlab_log{
+  padding: 15px 0 0 150px;
+  list-style-type: none;
+}
+header nav{
+  margin: 15px 0 20px 150px;
+}
+header nav ul{
+  list-style-type: none;
+  margin: 0px 0 0 0px;
+  padding: 0px 0px 0px;
+  display: flex;
+}
+header nav ul li a,
+header nav ul li a:link{
+  display: block;
+  padding: 0px 30px;
+  text-decoration: none;
+  color: #000;
+}
+header nav ul li a{
+  position:relative;
+}
+header nav ul li a:hover{
+  color: #888;
+}
+
+/* main */
+main h1{
+  margin-top:50px;
+  padding-top:60px;
+  text-align: center;
+  height:120px;
+  background-image:url(../images/backgroundimg.jpg);
+}
+.siteporcy{
+  margin:80px 190px 50px 190px;
+  display:flex;
+}
+.siteporcy h4{
+  padding-right:-60px;
+}
+.siteporcy p{
+  padding-left:40px;
+}
+.tyosakuken{
+  margin:40px 190px 50px 190px;
+  display:flex;
+}
+.tyosakuken h4{
+  padding-right:-60px;
+}
+.tyosakuken p{
+  padding-left:40px;
+}
+.link{
+  margin:40px 190px 50px 190px;
+  display:flex;
+}
+.link h4{
+  padding-right:-60px;
+}
+.link p{
+  padding-left:40px;
+}
+.privacy{
+    margin:40px 190px 50px 190px;
+  display:flex;
+}
+.privacy h4{
+  padding-right:-60px;
+}
+.privacy p{
+  padding-left:40px;
+}
+/* footer */
+footer{
+  background: #ede6e6;
+  padding: 20px;
+}
+footer ul{
+  list-style-type: none;
+  margin: 0 0 5px;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+footer ul li{
+  margin: 0 0 0 20px;
+}
+footer ul li a, footer ul li a:link{
+  text-decoration: none;
+  font-size: 15px;
+  color: #000;
+}
+footer ul li a:hover{
+  color: #888;
+}
+footer p{
+  margin: 0;
+  text-align: right;
+  color: #888;
+}
+#designed{
+  font-size: 12px;
+}

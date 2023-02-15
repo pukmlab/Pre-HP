@@ -1,0 +1,134 @@
+@charset "utf-8";
+body{
+  line-height: 1.7;
+  font-size: 16px;
+  font-family: "Sawarabi Mincho";
+  color: #000;
+}
+
+a,
+a:link{
+  color: #000;
+  text-decoration: none;
+}
+
+/* header*/
+#Mlab_log{
+  padding: 15px 0 0 150px;
+  list-style-type: none;
+}
+header nav{
+  margin: 15px 0 20px 150px;
+}
+header nav ul{
+  list-style-type: none;
+  margin: 0px 0 0 0px;
+  padding: 0px 0px 0px;
+  display: flex;
+}
+header nav ul li a,
+header nav ul li a:link{
+  display: block;
+  padding: 0px 30px;
+  text-decoration: none;
+  color: #000;
+}
+header nav ul li a{
+  position:relative;
+}
+header nav ul li a:hover{
+  color: #888;
+}
+
+.post-info{
+  position: relative;
+  padding-top: 4px; 
+  margin-bottom: 40px;
+}
+
+/*main*/
+.topic h1{
+  margin-top:50px;
+  padding-top:60px;
+  text-align:center;
+  height:120px;
+  background-color: blue;  background-image:url(../images/backgroundimg.jpg);}
+.topic img{
+  margin:5% 22% 5% 22%;
+}
+.topic h2{
+  margin:20px 300px 0 300px;
+}
+.topic1{
+  border-bottom: 1px solid gray;
+  margin-bottom:50px;
+}
+.topic1 h2{
+  margin:0 25% 3% 25%;
+}
+.topic1 p{
+  margin:0 25% 5% 25%;
+}
+.topic1 video{
+  margin: -5% 25% 10% 25%;
+}
+.topic2{
+  border-bottom: 1px solid gray;
+  padding:5% 22% 10% 22%;
+}
+.topic2 img{
+  float: left;
+}
+.topic2 dl{
+  margin: 5% 3% 5% 0;
+  padding-top:2%;
+  padding-bottom:2%;
+  padding-left:5%;
+  background-color:rgb(184, 228, 246);
+}
+#qpmi{
+  list-style-type:none;
+}
+#qpmi a{
+  color: rgb(38, 156, 220);
+}
+.topic3{
+  clear:left;
+  margin:6% 22% 5% 22%;
+}
+.topic4{
+  clear:left;
+  margin:6% 22% 5% 22%;
+}
+
+/* footer */
+footer{
+  background: #ede6e6;
+  padding: 20px;
+}
+footer ul{
+  list-style-type: none;
+  margin: 0 0 5px;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+footer ul li{
+  margin: 0 0 0 20px;
+}
+footer ul li a, footer ul li a:link{
+  text-decoration: none;
+  font-size: 15px;
+  color: #000;
+}
+footer ul li a:hover{
+  color: #888;
+}
+footer p{
+  margin: 0;
+  text-align: right;
+  color: #888;
+}
+#designed{
+  font-size: 12px;
+}

@@ -1,0 +1,101 @@
+@charset "utf-8";
+body{
+  line-height: 1.7;
+  font-size: 16px;
+  font-family: "Sawarabi Mincho";
+  color: #000;
+}
+
+a,
+a:link{
+  color: #000;
+  text-decoration: none;
+}
+
+/* header*/
+#Mlab_log{
+  padding: 15px 0 0 150px;
+  list-style-type: none;
+}
+header nav{
+  margin: 15px 0 20px 150px;
+}
+header nav ul{
+  list-style-type: none;
+  margin: 0px 0 0 0px;
+  padding: 0px 0px 0px;
+  display: flex;
+}
+header nav ul li a,
+header nav ul li a:link{
+  display: block;
+  padding: 0px 30px;
+  text-decoration: none;
+  color: #000;
+}
+header nav ul li a{
+  position:relative;
+}
+header nav ul li a:hover{
+  color: #888;
+}
+/* main */
+main h2{
+  margin-left:230px;
+  margin-top:80px;
+  margin-bottom:50px;
+}
+main #topimg{
+  float:left;
+  margin-left:230px;
+  padding-bottom:300px;
+  padding-right:60px;
+}
+main p{
+  padding:0 230px 0 0;
+}
+
+.images1{
+  display:grid;
+  gap:84px;
+  grid-template-columns:1fr 1fr;
+  padding-left:30px;
+  padding-right:30px;
+  padding-bottom:30px;
+  padding-top:30px;
+  margin-top:80px;
+  margin-left:150px;
+  margin-right:150px;
+  margin-bottom:80px;
+}
+/* footer */
+footer{
+  background: #ede6e6;
+  padding: 20px;
+}
+footer ul{
+  list-style-type: none;
+  margin: 0 0 5px;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+footer ul li{
+  margin: 0 0 0 20px;
+}
+footer ul li a, footer ul li a:link{
+  text-decoration: none;
+  font-size: 15px;
+  color: #000;
+}
+footer ul li a:hover{
+  color: #888;
+}
+footer p{
+  margin: 0;
+  text-align: right;
+  color: #888;
+}
+#designed{
+  font-size: 12px;
+}
